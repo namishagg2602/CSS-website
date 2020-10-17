@@ -1,0 +1,183 @@
+/*************************************   HTML ELEMENTS   ************************************/
+
+body {
+    margin: 0em;
+    background-color: #52616b;
+    font-family: monospace;
+    text-align: center;
+}
+
+span {
+    color: lightskyblue;
+    margin-left: 200px;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    padding-top: 10rem;
+    font-family: Luminari;
+    line-height: 3rem;
+    font-size: 5em;
+    display: block;
+    margin-top: 0em;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    color: ;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a {
+    margin: 10px;
+    color: cornflowerblue;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #07689f;
+}
+
+
+/* ***********************************   CLASS SELECTORS   *************************************/
+
+.topcontainer {
+    color: #ff2e63;
+    text-align: center;
+    background-image: url("../images/b3.jpeg");
+    background-color: black;
+    background-repeat: none;
+    background-size: cover;
+    padding-bottom: 5rem;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    /*   -webkit-box-shadow: 5px 5px 3px 1px #ff2e63;*/
+}
+
+.midcontainer {
+    color: #204051;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.bottomcontainer {
+    padding: 1rem;
+    background-image: url("../images/b3.jpeg");
+    color: white;
+    height: 5rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-box-shadow: #ff2e63 0px 3px 3px 3px inset;
+}
+
+.skills {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 15em;
+    height: 35rem;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.profile,
+.contact-me {
+    color: #07689f;
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 15em;
+    background-color: #c9d6df;
+    height: 12.5rem;
+    margin-bottom: 30px;
+}
+
+.profile-row {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-row {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.footer-row {
+    line-height: 2rem;
+    font-size: 0.55rem;
+}
+
+.img-gym {
+    margin-right: 30px;
+    float: left;
+    width: 25%;
+    border-radius: 30em;
+}
+
+.img-prog {
+    width: 25%;
+    margin-left: 30px;
+    float: right;
+    border-radius: 30em;
+}
+
+.skill-row {
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.img-profile {
+    float: left;
+    margin-right: 30px;
+    width: 28%;
+}
+
+.contact-me:hover {
+    color: #fbe8d3;
+    background-color: unset;
+}
+
+.skills:hover {
+    color: #e3fdfd;
+    background-color: unset;
+}
+
+.profile:hover {
+    color: #fbe8d3;
+    background-color: unset;
+}
+
+.btn {
+    color: darkorange;
+    background-color: black;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.lb {
+    float: left;
+}
+
+.rb {
+    float: right;
+}
